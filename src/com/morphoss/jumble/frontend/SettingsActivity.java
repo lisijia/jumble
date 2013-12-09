@@ -51,6 +51,7 @@ public class SettingsActivity extends BaseActivity {
 	private Button btnreset;
 	private ImageView enFlag;
 	private ImageView frFlag;
+    private ImageView cnFlag;
 	public static ContentResolver resolver;
 
 	@Override
@@ -151,6 +152,14 @@ public class SettingsActivity extends BaseActivity {
 					setLanguage("fr");
 				}
 			});
+            // added by Sijia for Chiness Language
+			cnFlag = (ImageView) findViewById(R.id.cnFlag);
+			cnFlag.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					setLanguage("cn");
+				}
+			});
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -208,6 +217,9 @@ public class SettingsActivity extends BaseActivity {
 
 	public static void setLanguage(){
 		languageToLoad = Locale.getDefault().getLanguage();
-		if(!(languageToLoad.contains("en") || languageToLoad.contains("fr"))) languageToLoad = "en";
+		Log.d(TAG, "the language to load is: " + languageToLoad);
+		if(!(languageToLoad.contains("en") || languageToLoad.contains("fr") ||
+           languageToLoad.contains("cn"))) languageToLoad = "en";
+
 	}
 }

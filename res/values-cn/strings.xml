@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Jumble</string>
+	<string name="loading"> 读取中&#8230;</string>
+	<string name="text_button_play">开始</string>
+	<string name="options">选项</string>
+	<string name="action_settings">设定</string>
+	<string name="win">恭喜!</string>
+	<string name="win2">很好!</string>
+	<string name="win3">不错!</string>
+	<string name="start_play">开始!</string>
+	<string name="choose_avatar">选择你的头像</string>
+	<string name="name_avatar">名字</string>
+	<string name="score_total">总分数:</string>
+	<string name="best_score">最高得分:</string>
+	<string name="language">语言</string>
+	<string name="music">音乐</string>
+	<string name="needHint">提示?</string>
+	<string name="detailsHint">按下按钮你将听到单词的发音。请注意：您每次将失去10分!</string>
+	<string name="reset">重新设定</string>
+	<string name="data">保存</string>
+	<string name="rules">游戏规则</string>
+	<string name="scoreBeg">开始分数： 100分</string>
+	<string name="score_adv">如果你能在15秒之内完成和移动次数不超过单词的长度， 你将赢的100分!</string>
+	<string name="score_med">如果你在30秒之内完成, 你将赢的50分!</string>
+	<string name="score_low">如果你超過30秒完成, 你將得到20分!!</string>
+	<string name="scoreHint">注意： 每次使用提示， 你將減少10分！</string>
+	<string name="results">成绩</string>
+	<string name="text_reset_score">重设分数</string>
+	<string name="unlockLevel">你可以进入到下一个层次了!</string>
+	<string name="detailsLevels">很好！新的单词库已经开启了！</string>
+	<string name="score_animals">当游戏开始时，你只可以使用动物的单词库！</string>
+	<string name="score_fruits_vegetables">你需要500分去开启新的单词库： 蔬菜和水果</string>
+	<string name="score_home">你需要2000分去开启新的单词库: 家</string>
+	<string name="score_nature">你需要4000分去开启新的单词库：自然</string>
+	<string name="score_colors">你需要6000分去开启新的单词库：颜色</string>
+	<string name="score_clothes">你需要8000分去开启新的单词库：衣服</string>
+	<string name="score_health">你需要12000分去开启新的单词库：健康</string>
+	<string name="score_sports">你需要16000分去开启新的单词库：运动</string>
+    <string name="unlockNewLevel">进入下一个级别的条件，你需要解答超过20%的单词在你之前的单词库。</string>
+    <string name="sameWords">当你在同一个单词上得到2000分或以上，这个单词将从单词库里消失！</string>
+</resources>
